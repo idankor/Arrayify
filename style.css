@@ -6,6 +6,14 @@
   color: #333333;
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+
 .main-main {
   margin-top: 50px;
   display: flex;
@@ -93,11 +101,4 @@ button {
 *:focus {
   outline: none;
 }
-
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-}
+  }
