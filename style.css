@@ -6,14 +6,6 @@
   color: #333333;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-
-
 .main-main {
   margin-top: 50px;
   display: flex;
@@ -71,7 +63,6 @@ button {
   padding: 15px 15px;
   font-size: 16px;
   height: 60px;
-  width: 100px;
   border: 0px;
   color: #fff;
   background-color: #03045e;
@@ -81,7 +72,6 @@ button {
   height: 60px;
   padding-left: 20px;
   border: 0px;
-  width: 405px;
 }
 
 ::placeholder {
@@ -91,8 +81,8 @@ button {
 .my-box {
   background-color: #ffff3f;
   font-size: 40px;
-  height: 100px;
-  width: 100px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,4 +91,4 @@ button {
 *:focus {
   outline: none;
 }
-  }
+  
